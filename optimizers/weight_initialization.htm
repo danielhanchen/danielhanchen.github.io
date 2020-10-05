@@ -24,16 +24,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Daniel Han-Chen</o:Author>
   <o:LastAuthor>Daniel Han-Chen</o:LastAuthor>
-  <o:Revision>10</o:Revision>
-  <o:TotalTime>4419</o:TotalTime>
+  <o:Revision>21</o:Revision>
+  <o:TotalTime>4431</o:TotalTime>
   <o:Created>2020-09-29T09:39:00Z</o:Created>
-  <o:LastSaved>2020-10-02T14:54:00Z</o:LastSaved>
+  <o:LastSaved>2020-10-03T08:45:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>614</o:Words>
-  <o:Characters>3504</o:Characters>
-  <o:Lines>29</o:Lines>
-  <o:Paragraphs>8</o:Paragraphs>
-  <o:CharactersWithSpaces>4110</o:CharactersWithSpaces>
+  <o:Words>713</o:Words>
+  <o:Characters>4066</o:Characters>
+  <o:Lines>33</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>4770</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -41,8 +41,8 @@ w\:* {behavior:url(#default#VML);}
   <o:TargetScreenSize>1920x1200</o:TargetScreenSize>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="weight_initialization_files/item0056.xml"
-target="weight_initialization_files/props057.xml">
+<link rel=dataStoreItem href="weight_initialization_files/item0074.xml"
+target="weight_initialization_files/props075.xml">
 <link rel=themeData href="weight_initialization_files/themedata.thmx">
 <link rel=colorSchemeMapping
 href="weight_initialization_files/colorschememapping.xml">
@@ -868,7 +868,8 @@ Initialization<o:p></o:p></span></h1>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
 line-height:normal'><b><u><span style='font-family:"Arial",sans-serif;
-color:white;mso-themecolor:background1'><a href="../index.htm">Home</a></span></u></b><span
+color:white;mso-themecolor:background1'><a href="../index.htm"><span
+style='color:white;mso-themecolor:background1'>Home</span></a></span></u></b><span
 style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1'><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
@@ -921,92 +922,50 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
 line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
-mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p></span></p>
+mso-themecolor:background1'>In all papers, people either use <b>Normal</b> or <b>Uniform</b>
+initialization. There is a simple relationship:<o:p></o:p></span></p>
 
 <div align=center>
 
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
  style='background:#F2F2F2;mso-background-themecolor:background1;mso-background-themeshade:
- 242;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
- mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.55pt'>
-  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+ 242;border-collapse:collapse;border:none;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:none'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:33.9pt'>
+  <td width=345 valign=top style='width:258.85pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:33.9pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
-  color:black;mso-themecolor:text1'>Activation<o:p></o:p></span></b></p>
-  </td>
-  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
-  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
-  color:black;mso-themecolor:text1'>Uniform<o:p></o:p></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:1;height:15.55pt'>
-  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
-  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
-  color:black;mso-themecolor:text1'>Sigmoid<o:p></o:p></span></b></p>
-  </td>
-  <td width=187 valign=top style='width:140.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+  line-height:150%'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
     mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
-       m:val="roman"/><m:sty m:val="bi"/></m:rPr>r</m:r><m:r><m:rPr><m:scr
-       m:val="roman"/><m:sty m:val="bi"/></m:rPr>=</m:r></span></i></b><m:rad><m:radPr><m:degHide
-       m:val="on"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
-      "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-      minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
-      Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
-      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:radPr><m:deg></m:deg><m:e><m:f><m:fPr><span
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>W</m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr> ~ </m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>N</m:r></span></i></b><m:d><m:dPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>0</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>,</m:r></span></i></b><m:sSup><m:sSupPr><span
         style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
         mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
         mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
         color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
-        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><b><i
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
         style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
         mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
         mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
-           m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:num><m:den><m:sSub><m:sSubPr><span
-          style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
-          Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:
-          italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>in</m:r></span></i></b></m:sub></m:sSub><b><i
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
         style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
         mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
         mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
-           m:val="roman"/><m:sty m:val="bi"/></m:rPr>+</m:r></span></i></b><m:sSub><m:sSubPr><span
-          style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
-          Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:
-          italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>out</m:r></span></i></b></m:sub></m:sSub></m:den></m:f></m:e></m:rad></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:d></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
@@ -1031,14 +990,340 @@ mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p
    </v:formulas>
    <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
    <o:lock v:ext="edit" aspectratio="t"/>
-  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:78pt;
-   height:39.6pt'>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:64.8pt;
+   height:15.6pt'>
    <v:imagedata src="weight_initialization_files/image001.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=104 height=53
-  src="weight_initialization_files/image051.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  </v:shape><![endif]--><![if !vml]><img width=86 height=21
+  src="weight_initialization_files/image025.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
   mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:150%'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>r</m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>=</m:r></span></i></b><m:rad><m:radPr><m:degHide
+       m:val="on"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
+      "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+      minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+      Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:radPr><m:deg></m:deg><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>3</m:r></span></i></b><m:sSup><m:sSupPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:rad></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:47.4pt;height:17.4pt'>
+   <v:imagedata src="weight_initialization_files/image003.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=63 height=23
+  src="weight_initialization_files/image027.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:150%'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>W</m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr> ~ </m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>U</m:r></span></i></b><m:d><m:dPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>-</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>r</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>,</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>r</m:r></span></i></b></m:e></m:d></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:64.8pt;height:13.8pt'>
+   <v:imagedata src="weight_initialization_files/image005.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=86 height=18
+  src="weight_initialization_files/image029.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
+mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
+mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p></span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:#F2F2F2;mso-background-themecolor:background1;mso-background-themeshade:
+ 242;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.55pt'>
+  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-themecolor:text1'>Activation<o:p></o:p></span></b></p>
+  </td>
+  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-themecolor:text1'>Normal<o:p></o:p></span></b></p>
+  </td>
+  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-themecolor:text1'>Uniform<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:15.55pt'>
+  <td width=187 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-themecolor:text1'>Sigmoid, Tanh, Linear, <span class=SpellE>Softmax</span>,
+  Others (<span class=SpellE>Glorot</span> Xavier)<o:p></o:p></span></b></p>
+  </td>
+  <td width=187 valign=top style='width:140.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSup><m:sSupPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>=</m:r></span></i></b><m:f><m:fPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:num><m:den><m:sSub><m:sSubPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>in</m:r></span></i></b></m:sub></m:sSub><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>+</m:r></span></i></b><m:sSub><m:sSubPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>out</m:r></span></i></b></m:sub></m:sSub></m:den></m:f></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:75.6pt;height:27.6pt'>
+   <v:imagedata src="weight_initialization_files/image060.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=101 height=37
+  src="weight_initialization_files/image031.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#952;</m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr> ~ </m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>N</m:r></span></i></b><m:d><m:dPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>0</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>,</m:r></span></i></b><m:sSup><m:sSupPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:d></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:60.6pt;height:15.6pt'>
+   <v:imagedata src="weight_initialization_files/image062.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=81 height=21
+  src="weight_initialization_files/image033.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:Calibri;
+  color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  </td>
+  <td width=187 valign=top style='width:140.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><a name="_Hlk52642609"></a><!--[if gte msEquation 12]><m:oMathPara><m:oMath><span
+    style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+     style='font-family:"Cambria Math",serif;mso-fareast-font-family:"Times New Roman";
+     mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Arial;
+     color:black;mso-themecolor:text1'>r</span></i></b></m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:
+     normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+     "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+     Arial;color:black;mso-themecolor:text1'>=</span></i></b></m:r></span><m:rad><m:radPr><m:degHide
+       m:val="on"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
+      "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+      minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+      Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:radPr><m:deg><span
+      style='mso-bookmark:_Hlk52642609'></span></m:deg><m:e><span
+      style='mso-bookmark:_Hlk52642609'></span><m:f><m:fPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><span
+        style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+         style='font-family:"Cambria Math",serif;mso-fareast-font-family:"Times New Roman";
+         mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Arial;
+         color:black;mso-themecolor:text1'>6</span></i></b></m:r></span></m:num><m:den><m:sSub><m:sSubPr><span
+          style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+          minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+          Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:
+          italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><span
+          style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+             m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+           style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+           "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+           Arial;color:black;mso-themecolor:text1'>F</span></i></b></m:r></span></m:e><m:sub><span
+          style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+             m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+           style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+           "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+           Arial;color:black;mso-themecolor:text1'>in</span></i></b></m:r></span></m:sub></m:sSub><span
+        style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+         style='font-family:"Cambria Math",serif;mso-fareast-font-family:"Times New Roman";
+         mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Arial;
+         color:black;mso-themecolor:text1'>+</span></i></b></m:r></span><m:sSub><m:sSubPr><span
+          style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+          minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+          Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:
+          italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><span
+          style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+             m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+           style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+           "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+           Arial;color:black;mso-themecolor:text1'>F</span></i></b></m:r></span></m:e><m:sub><span
+          style='mso-bookmark:_Hlk52642609'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+             m:val="bi"/></m:rPr><b><i style='mso-bidi-font-style:normal'><span
+           style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+           "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+           Arial;color:black;mso-themecolor:text1'>out</span></i></b></m:r></span></m:sub></m:sSub></m:den></m:f></m:e></m:rad></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:78pt;height:39.6pt'>
+   <v:imagedata src="weight_initialization_files/image007.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=104 height=53
+  src="weight_initialization_files/image035.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+  style='mso-bookmark:_Hlk52642609'><b><span style='font-family:"Arial",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:black;mso-themecolor:text1'><o:p></o:p></span></b></span></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
   line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
@@ -1065,10 +1350,10 @@ mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:60.6pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image003.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image009.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=81 height=18
-  src="weight_initialization_files/image052.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  src="weight_initialization_files/image037.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   </td>
  </tr>
@@ -1079,8 +1364,113 @@ mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
   line-height:normal'><span class=SpellE><b><span style='font-family:"Arial",sans-serif;
   color:black;mso-themecolor:text1'>ReLU</span></b></span><b><span
-  style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'> and
-  others<o:p></o:p></span></b></p>
+  style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'>, <span
+  class=SpellE>PReLU</span>, ELU derivatives (He)<o:p></o:p></span></b></p>
+  </td>
+  <td width=187 valign=top style='width:140.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.85pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSup><m:sSupPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>=</m:r></span></i></b><m:f><m:fPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:num><m:den><m:sSub><m:sSubPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>in</m:r></span></i></b></m:sub></m:sSub></m:den></m:f></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:42pt;height:27.6pt'>
+   <v:imagedata src="weight_initialization_files/image066.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=56 height=37
+  src="weight_initialization_files/image039.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#952;</m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr> ~ </m:r><m:r><m:rPr><m:scr
+       m:val="roman"/><m:sty m:val="bi"/></m:rPr>N</m:r></span></i></b><m:d><m:dPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+      mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>0</m:r><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr>,</m:r></span></i></b><m:sSup><m:sSupPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:black;mso-themecolor:text1;font-weight:bold;font-style:italic;
+        mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+           m:val="roman"/><m:sty m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:d></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:60.6pt;height:15.6pt'>
+   <v:imagedata src="weight_initialization_files/image062.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=81 height=21
+  src="weight_initialization_files/image033.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:Calibri;
+  color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   </td>
   <td width=187 valign=top style='width:140.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1119,34 +1509,17 @@ mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p
           style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
           mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
           minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>in</m:r></span></i></b></m:sub></m:sSub><b><i
-        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-        mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
-           m:val="roman"/><m:sty m:val="bi"/></m:rPr>+</m:r></span></i></b><m:sSub><m:sSubPr><span
-          style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
-          Arial;color:black;mso-themecolor:text1;font-weight:bold;font-style:
-          italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>F</m:r></span></i></b></m:e><m:sub><b><i
-          style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-          mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-          minor-fareast;mso-bidi-font-family:Arial;color:black;mso-themecolor:
-          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>out</m:r></span></i></b></m:sub></m:sSub></m:den></m:f></m:e></m:rad></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+          text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>in</m:r></span></i></b></m:sub></m:sSub></m:den></m:f></m:e></m:rad></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:78pt;height:39.6pt'>
-   <v:imagedata src="weight_initialization_files/image005.png" o:title=""
+   type="#_x0000_t75" style='width:44.4pt;height:39.6pt'>
+   <v:imagedata src="weight_initialization_files/image011.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=104 height=53
-  src="weight_initialization_files/image053.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  </v:shape><![endif]--><![if !vml]><img width=59 height=53
+  src="weight_initialization_files/image041.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
   mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
@@ -1175,10 +1548,10 @@ mso-themecolor:background1'>To summarize all non-iterative approaches:<o:p></o:p
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:60.6pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image003.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image009.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=81 height=18
-  src="weight_initialization_files/image052.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  src="weight_initialization_files/image037.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   </td>
  </tr>
@@ -1191,10 +1564,8 @@ line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
 mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
-mso-themecolor:background1'>Notice the normal distribution was not included. </span><span
-style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1;
-background:gray;mso-highlight:gray'><a
+line-height:normal'><span style='font-family:"Arial",sans-serif;color:black;
+mso-themecolor:text1;background:gray;mso-highlight:gray'><a
 href="https://github.com/keras-team/keras/issues/52"><span style='color:black;
 mso-themecolor:text1'>https://github.com/keras-team/keras/issues/52</span></a></span><span
 style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1'>
@@ -1296,10 +1667,10 @@ mso-themecolor:background1'>since each channel gets a filter separately,<o:p></o
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:74.4pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image007.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image013.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=99 height=18
-  src="weight_initialization_files/image054.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  src="weight_initialization_files/image043.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
   mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
@@ -1366,10 +1737,10 @@ mso-themecolor:background1'>since each channel gets a filter separately,<o:p></o
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:84.6pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image009.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image015.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=113 height=18
-  src="weight_initialization_files/image055.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  src="weight_initialization_files/image045.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
   style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
   mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   </td>
@@ -1402,10 +1773,10 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Rom
 mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
 mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
  id="_x0000_i1025" type="#_x0000_t75" style='width:18pt;height:13.8pt'>
- <v:imagedata src="weight_initialization_files/image011.png" o:title=""
+ <v:imagedata src="weight_initialization_files/image017.png" o:title=""
   chromakey="white"/>
 </v:shape><![endif]--><![if !vml]><img width=24 height=18
-src="weight_initialization_files/image056.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+src="weight_initialization_files/image048.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
 style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1'>is
 the number of channels, and h and w denote the kernel or filter’s height and
 weight.<o:p></o:p></span></p>
@@ -1424,8 +1795,8 @@ line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
 mso-themecolor:background1'>Another popular method is to use </span><span
 style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1;
 background:#FF7C80'>Orthogonal Initialization</span><span style='font-family:
-"Arial",sans-serif;color:white;mso-themecolor:background1'>, where you draw
-from a standard normal, then orthogonalize it via<o:p></o:p></span></p>
+"Arial",sans-serif;color:white;mso-themecolor:background1'>, where you draw from
+a standard normal, then orthogonalize it via<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
 line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
@@ -1444,6 +1815,24 @@ the variance at each layer.<o:p></o:p></span></p>
 line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
 mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
 
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal;background:#806000;mso-background-themecolor:accent4;
+mso-background-themeshade:128'><b><span style='font-size:14.0pt;font-family:
+"Arial",sans-serif;color:white;mso-themecolor:background1'>DO </span></b><b><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black;mso-themecolor:
+text1'>NOT </span></b><b><span style='font-size:14.0pt;font-family:"Arial",sans-serif;
+color:white;mso-themecolor:background1'>use LSUV on Sigmoid, Tanh, Linear, <span
+class=SpellE>Softmax</span>, Others.</span></b><b><span style='font-size:14.0pt;
+font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
+mso-themecolor:background1'>LSUV would fail to converge!<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
+mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
+
 <div align=center>
 
 <table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
@@ -1454,6 +1843,17 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   height:34.6pt'>
   <td width=471 valign=top style='width:353.15pt;padding:0cm 5.4pt 0cm 5.4pt;
   height:34.6pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1;
+  background:yellow;mso-highlight:yellow'>LSUV terminates if </span></b><b><span
+  style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1;
+  background:yellow;mso-highlight:yellow'>Sigmoid, Tanh, Linear, <span
+  class=SpellE>Softmax</span>, Others used.</span></b><b><span
+  style='font-family:"Arial",sans-serif;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
      m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
@@ -1484,12 +1884,12 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:148.8pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image013.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image019.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=198 height=18
-  src="weight_initialization_files/image057.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  src="weight_initialization_files/image051.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
+  style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
      m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
     normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
@@ -1506,12 +1906,14 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:46.8pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image015.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image021.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=62 height=18
-  src="weight_initialization_files/image058.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  src="weight_initialization_files/image053.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-omath-para:
+  yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
      m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
@@ -1538,21 +1940,51 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
    type="#_x0000_t75" style='width:43.2pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image017.png" o:title=""
+   <v:imagedata src="weight_initialization_files/image023.png" o:title=""
     chromakey="white"/>
   </v:shape><![endif]--><![if !vml]><img width=58 height=18
-  src="weight_initialization_files/image059.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'>For
-  layer in all layers:<o:p></o:p></span></b></p>
+  src="weight_initialization_files/image057.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-omath-para:
+  yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><span
+  style='mso-omath-para:yes'><o:p>&nbsp;</o:p></span></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>For</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>layer</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>in</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>all</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>layers</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>:</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:122.4pt;height:13.8pt'>
+   <v:imagedata src="weight_initialization_files/image032.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=163 height=18
+  src="weight_initialization_files/image058.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-omath-para:
+  yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
@@ -1561,7 +1993,9 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
-         m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>        </span></m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
@@ -1587,18 +2021,22 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:76.2pt;height:15pt'>
-   <v:imagedata src="weight_initialization_files/image019.png" o:title=""
+   type="#_x0000_t75" style='width:95.4pt;height:15pt'>
+   <v:imagedata src="weight_initialization_files/image036.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=102 height=20
-  src="weight_initialization_files/image060.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=127 height=20
+  src="weight_initialization_files/image059.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-omath-para:
+  yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
-    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-    mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span></m:r><m:r><m:rPr><m:scr
        m:val="roman"/><m:sty m:val="bi"/></m:rPr>t</m:r><m:r><m:rPr><m:scr
        m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#8788;</m:r><m:r><m:rPr><m:scr
        m:val="roman"/><m:sty m:val="bi"/></m:rPr>0</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
@@ -1607,50 +2045,74 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:27.6pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image021.png" o:title=""
+   type="#_x0000_t75" style='width:44.4pt;height:13.8pt'>
+   <v:imagedata src="weight_initialization_files/image040.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=37 height=18
-  src="weight_initialization_files/image061.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:black;mso-themecolor:text1'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'><o:p>&nbsp;</o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'>____If </span></b><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
-     style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-     color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr> </m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
+  </v:shape><![endif]--><![if !vml]><img width=59 height=18
+  src="weight_initialization_files/image061.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-omath-para:
+  yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#C00000'><span style='mso-omath-para:yes'><o:p>&nbsp;</o:p></span></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>If</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r></span></i></b><m:sSub><m:sSubPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>is</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>tall</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>, </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>skinny</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>:</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:5.0pt;mso-text-raise:
-  -5.0pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:31.2pt;height:15pt'>
-   <v:imagedata src="weight_initialization_files/image023.png" o:title=""
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:137.4pt;height:15pt'>
+   <v:imagedata src="weight_initialization_files/image044.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=42 height=20
-  src="weight_initialization_files/image062.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'>is tall, skinny:<o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=183 height=20
+  src="weight_initialization_files/image063.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#C00000;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span></m:r></span></i></b><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
@@ -1698,52 +2160,77 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:108.6pt;height:16.2pt'>
-   <v:imagedata src="weight_initialization_files/image025.png" o:title=""
+   type="#_x0000_t75" style='width:142.2pt;height:16.2pt'>
+   <v:imagedata src="weight_initialization_files/image050.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=145 height=22
-  src="weight_initialization_files/image063.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'>____Else if </span></b><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
-     style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-     color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr> </m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
-  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
-  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
-  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:5.0pt;mso-text-raise:
-  -5.0pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:31.2pt;height:15pt'>
-   <v:imagedata src="weight_initialization_files/image023.png" o:title=""
-    chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=42 height=20
-  src="weight_initialization_files/image062.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'>is wide, fat:<o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  </v:shape><![endif]--><![if !vml]><img width=190 height=22
+  src="weight_initialization_files/image064.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#C00000;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>Else</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>if</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r></span></i></b><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>is</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>wide</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>, </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>fat</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>:</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
+  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:148.8pt;height:15pt'>
+   <v:imagedata src="weight_initialization_files/image054.png" o:title=""
+    chromakey="white"/>
+  </v:shape><![endif]--><![if !vml]><img width=198 height=20
+  src="weight_initialization_files/image065.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#C00000;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -1790,20 +2277,28 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:96.6pt;height:16.8pt'>
-   <v:imagedata src="weight_initialization_files/image027.png" o:title=""
+   type="#_x0000_t75" style='width:130.2pt;height:16.8pt'>
+   <v:imagedata src="weight_initialization_files/image056.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=129 height=22
-  src="weight_initialization_files/image064.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=174 height=22
+  src="weight_initialization_files/image067.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#C00000;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#C00000;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#C00000'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -1838,24 +2333,32 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:1in;height:16.8pt'>
-   <v:imagedata src="weight_initialization_files/image029.png" o:title=""
+   type="#_x0000_t75" style='width:105.6pt;height:16.8pt'>
+   <v:imagedata src="weight_initialization_files/image092.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=96 height=22
-  src="weight_initialization_files/image065.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#C00000'><o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><b><span style='font-family:"Arial",sans-serif;
+  </v:shape><![endif]--><![if !vml]><img width=141 height=22
+  src="weight_initialization_files/image068.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-  color:black;mso-themecolor:text1'><o:p>&nbsp;</o:p></span></b></p>
+  mso-bidi-font-family:Arial;color:#C00000;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><b><i style='mso-bidi-font-style:normal'><span
+  style='font-family:"Cambria Math",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Arial;color:black;
+  mso-themecolor:text1'><span style='mso-omath-para:yes'><o:p>&nbsp;</o:p></span></span></i></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -1909,20 +2412,27 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:153.6pt;height:16.2pt'>
-   <v:imagedata src="weight_initialization_files/image031.png" o:title=""
+   type="#_x0000_t75" style='width:170.4pt;height:16.2pt'>
+   <v:imagedata src="weight_initialization_files/image094.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=205 height=22
-  src="weight_initialization_files/image066.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=227 height=22
+  src="weight_initialization_files/image069.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSup><m:sSupPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSup><m:sSupPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -1979,166 +2489,198 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:136.8pt;height:20.4pt'>
-   <v:imagedata src="weight_initialization_files/image033.png" o:title=""
+   type="#_x0000_t75" style='width:153.6pt;height:20.4pt'>
+   <v:imagedata src="weight_initialization_files/image096.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=182 height=27
-  src="weight_initialization_files/image067.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'>____While </span></b><!--[if gte msEquation 12]><m:oMath><m:d><m:dPr><m:begChr
-      m:val="|"/><m:endChr m:val="|"/><span style='font-family:"Cambria Math",serif;
-     mso-ascii-font-family:"Cambria Math";mso-fareast-font-family:"Times New Roman";
-     mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:"Cambria Math";
-     mso-bidi-font-family:Arial;color:#7030A0;font-weight:bold;font-style:italic;
-     mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><m:sSup><m:sSupPr><span
-       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
-       normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
-       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-          m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
-       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-          m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>-</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>1</m:r></span></i></b></m:e></m:d><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>&#8805;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>tol</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr> </m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
+  </v:shape><![endif]--><![if !vml]><img width=205 height=27
+  src="weight_initialization_files/image070.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>While</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r></span></i></b><m:d><m:dPr><m:begChr m:val="|"/><m:endChr
+       m:val="|"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
+      "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+      minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+      Arial;color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><m:sSup><m:sSupPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+        normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>-</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>1</m:r></span></i></b></m:e></m:d><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>&#8805;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>tol</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>and</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>t</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>&#8804;</m:r></span></i></b><m:sSub><m:sSubPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>t</m:r></span></i></b></m:e><m:sub><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>max</m:r></span></i></b></m:sub></m:sSub><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>:</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:4.5pt;mso-text-raise:
-  -4.5pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:70.8pt;height:15.6pt'>
-   <v:imagedata src="weight_initialization_files/image035.png" o:title=""
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:189.6pt;height:15.6pt'>
+   <v:imagedata src="weight_initialization_files/image098.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=94 height=21
-  src="weight_initialization_files/image068.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'>and </span></b><!--[if gte msEquation 12]><m:oMath><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>t</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>&#8804;</m:r></span></i></b><m:sSub><m:sSubPr><span
-     style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-     color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>t</m:r></span></i></b></m:e><m:sub><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>max</m:r></span></i></b></m:sub></m:sSub><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>:</m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
+  </v:shape><![endif]--><![if !vml]><img width=253 height=21
+  src="weight_initialization_files/image071.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>If</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r></span></i></b><m:rad><m:radPr><m:degHide
+       m:val="on"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
+      "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+      minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+      Arial;color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:radPr><m:deg></m:deg><m:e><m:sSup><m:sSupPr><span
+        style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+        color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+        normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
+        style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+        mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+           m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:rad><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>&#8804;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>&#1013;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>: </m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:
-  -3.0pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:43.8pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image037.png" o:title=""
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:93pt;height:17.4pt'>
+   <v:imagedata src="weight_initialization_files/image100.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=58 height=18
-  src="weight_initialization_files/image069.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'>________If </span></b><!--[if gte msEquation 12]><m:oMath><m:rad><m:radPr><m:degHide
-      m:val="on"/><span style='font-family:"Cambria Math",serif;mso-ascii-font-family:
-     "Cambria Math";mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-     minor-fareast;mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
-     Arial;color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
-     normal'><m:ctrlPr></m:ctrlPr></span></m:radPr><m:deg></m:deg><m:e><m:sSup><m:sSupPr><span
-       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
-       normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
-       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-          m:val="bi"/></m:rPr>&#963;</m:r></span></i></b></m:e><m:sup><b><i
-       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-          m:val="bi"/></m:rPr>2</m:r></span></i></b></m:sup></m:sSup></m:e></m:rad><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>&#8804;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>&#1013;</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr>: </m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
+  </v:shape><![endif]--><![if !vml]><img width=124 height=23
+  src="weight_initialization_files/image072.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>Initialize</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r></span></i></b><m:sSub><m:sSubPr><span
+      style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
+      color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+         m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
+    style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+    mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>with</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>normal</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>methods</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>and</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr> </m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>break</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr>.</m:r></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
   style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
   mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:
-  -3.0pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:44.4pt;height:15.6pt'>
-   <v:imagedata src="weight_initialization_files/image039.png" o:title=""
+  mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
+  EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+   type="#_x0000_t75" style='width:312.65pt;height:15pt'>
+   <v:imagedata src="weight_initialization_files/image102.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=59 height=21
-  src="weight_initialization_files/image070.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'>____________Initialize </span></b><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
-     style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
-     color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>&#952;</m:r></span></i></b></m:e><m:sub><b><i
-     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-        m:val="bi"/></m:rPr>layer</m:r></span></i></b></m:sub></m:sSub><b><i
-   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
-   mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-   mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
-      m:val="bi"/></m:rPr> </m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
-  style='font-size:11.0pt;line-height:105%;font-family:"Calibri",sans-serif;
-  mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
-  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi;position:relative;top:5.0pt;mso-text-raise:
-  -5.0pt;mso-ansi-language:EN-AU;mso-fareast-language:EN-US;mso-bidi-language:
-  AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
-   style='width:31.2pt;height:15pt'>
-   <v:imagedata src="weight_initialization_files/image041.png" o:title=""
-    chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=42 height=20
-  src="weight_initialization_files/image071.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'>with normal methods and
-  break.<o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=417 height=20
+  src="weight_initialization_files/image073.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span></m:r></span></i></b><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
@@ -2201,20 +2743,28 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:1in;height:28.8pt'>
-   <v:imagedata src="weight_initialization_files/image043.png" o:title=""
+   type="#_x0000_t75" style='width:105.6pt;height:28.8pt'>
+   <v:imagedata src="weight_initialization_files/image104.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=96 height=38
-  src="weight_initialization_files/image072.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=141 height=38
+  src="weight_initialization_files/image074.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSub><m:sSubPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -2268,20 +2818,28 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:153.6pt;height:16.2pt'>
-   <v:imagedata src="weight_initialization_files/image031.png" o:title=""
+   type="#_x0000_t75" style='width:187.8pt;height:16.2pt'>
+   <v:imagedata src="weight_initialization_files/image106.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=205 height=22
-  src="weight_initialization_files/image066.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=250 height=22
+  src="weight_initialization_files/image075.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSup><m:sSupPr><span
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><m:sSup><m:sSupPr><span
       style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:Arial;
       color:#7030A0;font-weight:bold;font-style:italic;mso-bidi-font-style:
       normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><b><i
+      style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+      mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr
+         m:val="roman"/><m:sty m:val="bi"/></m:rPr><span
+       style='mso-spacerun:yes'>       </span><span
+       style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
       style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
       mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
       mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -2338,15 +2896,22 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:136.8pt;height:20.4pt'>
-   <v:imagedata src="weight_initialization_files/image033.png" o:title=""
+   type="#_x0000_t75" style='width:170.4pt;height:20.4pt'>
+   <v:imagedata src="weight_initialization_files/image108.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=182 height=27
-  src="weight_initialization_files/image067.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=227 height=27
+  src="weight_initialization_files/image076.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><b><i
+  line-height:normal'><!--[if gte msEquation 12]><m:oMathPara><m:oMathParaPr><m:jc
+     m:val="left"/></m:oMathParaPr><m:oMath><b><i style='mso-bidi-font-style:
+    normal'><span style='font-family:"Cambria Math",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+    Arial;color:black;mso-themecolor:text1'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+       m:val="bi"/></m:rPr><span style='mso-spacerun:yes'>       </span><span
+     style='mso-spacerun:yes'>       </span></m:r></span></i></b><b><i
     style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
     mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
     mso-bidi-font-family:Arial;color:#7030A0'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
@@ -2360,17 +2925,19 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
   mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-AU;mso-fareast-language:
   EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape id="_x0000_i1025"
-   type="#_x0000_t75" style='width:43.2pt;height:13.8pt'>
-   <v:imagedata src="weight_initialization_files/image045.png" o:title=""
+   type="#_x0000_t75" style='width:77.4pt;height:13.8pt'>
+   <v:imagedata src="weight_initialization_files/image110.png" o:title=""
     chromakey="white"/>
-  </v:shape><![endif]--><![if !vml]><img width=58 height=18
-  src="weight_initialization_files/image073.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><span
-  style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:minor-fareast;color:#7030A0'><o:p></o:p></span></b></p>
+  </v:shape><![endif]--><![if !vml]><img width=103 height=18
+  src="weight_initialization_files/image077.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b><i
+  style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  mso-bidi-font-family:Arial;color:#7030A0;mso-omath-para:yes'><o:p></o:p></span></i></b></p>
   <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-  line-height:normal'><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
-  "Times New Roman";mso-fareast-theme-font:minor-fareast;color:black;
-  mso-themecolor:text1'><o:p>&nbsp;</o:p></span></p>
+  line-height:normal'><i style='mso-bidi-font-style:normal'><span
+  style='font-family:"Cambria Math",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Arial;color:black;
+  mso-themecolor:text1;mso-omath-para:yes'><o:p>&nbsp;</o:p></span></i></p>
   </td>
  </tr>
 </table>
@@ -2383,16 +2950,12 @@ mso-themecolor:background1'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
 line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
-mso-themecolor:background1;background:#7030A0'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal'><span style='font-family:"Arial",sans-serif;color:white;
 mso-themecolor:background1;background:#7030A0'>LSUV</span><span
 style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast;color:white;mso-themecolor:background1'> sadly
-only improves accuracy by minuscule amounts. In fact, in my own testings, </span><span
-style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1;
-background:#7030A0'>LSUV</span><span style='font-family:"Arial",sans-serif;
+mso-fareast-theme-font:minor-fareast;color:white;mso-themecolor:background1'>
+sadly only improves accuracy by minuscule amounts. In fact, in my own testings,
+</span><span style='font-family:"Arial",sans-serif;color:white;mso-themecolor:
+background1;background:#7030A0'>LSUV</span><span style='font-family:"Arial",sans-serif;
 mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
 color:white;mso-themecolor:background1'> actually<o:p></o:p></span></p>
 
@@ -2409,7 +2972,7 @@ background1;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="weight_initialization_files/image047.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=462 height=299
-src="weight_initialization_files/image074.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="weight_initialization_files/image078.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
 style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
 mso-fareast-theme-font:minor-fareast;color:white;mso-themecolor:background1'><o:p></o:p></span></p>
 
@@ -2469,7 +3032,7 @@ background1;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="weight_initialization_files/image049.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=458 height=306
-src="weight_initialization_files/image075.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
+src="weight_initialization_files/image079.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
 style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
 mso-fareast-theme-font:minor-fareast;color:white;mso-themecolor:background1'><o:p></o:p></span></p>
 
@@ -2515,8 +3078,8 @@ mediums are protected under the original publishers licensing arrangements.<o:p>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:normal'><b><u><span
 style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1'><a
-href="../index.htm">Home</a></span></u></b><span style='font-family:"Arial",sans-serif;
-color:white;mso-themecolor:background1'><o:p></o:p></span></p>
+href="../index.htm"><span style='color:white;mso-themecolor:background1'>Home</span></a></span></u></b><span
+style='font-family:"Arial",sans-serif;color:white;mso-themecolor:background1'><o:p></o:p></span></p>
 
 </div>
 
